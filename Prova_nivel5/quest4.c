@@ -1,0 +1,1 @@
+/*Difícil: Escreva um programa que leia um número inteiro positivo e exiba todos os seus divisores.*/
