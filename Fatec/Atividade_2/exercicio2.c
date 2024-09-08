@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(){
     /* Está função retorna o maior e o menor numero respectivamente! */
@@ -41,7 +42,9 @@ int main(){
         menor_num = num4;
     }
     
-    printf("O Maior numero e: %d\nO Menor numero e: %d", maior_num, menor_num);
-
+    printf("O Maior numero e: %d\nO Menor numero e: %d\n", maior_num, menor_num);
+    
+    system("Pause");
     return 0;
+    
 }

@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(){
     /* Esta Função verifica se o primeiro numero é multiplo do segundo */
@@ -11,11 +12,11 @@ int main(){
     scanf("%d", &num2);
     
     if (num1 % num2 == 0){
-        printf("O numero %d e multiplo de %d!", num1, num2);
+        printf("O numero %d e multiplo de %d!\n", num1, num2);
     }
     else{
-        printf("O numero %d nao e multiplo de %d!", num1, num2);
+        printf("O numero %d nao e multiplo de %d!\n", num1, num2);
     }
-
+    system("Pause");
     return 0;
 }
