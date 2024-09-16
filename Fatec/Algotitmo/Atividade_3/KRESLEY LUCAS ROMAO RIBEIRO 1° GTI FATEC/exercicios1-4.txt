@@ -1,0 +1,54 @@
+1) Identifique e corrija os erros em cada um dos itens seguintes:
+
+a) while (c <= 5) {
+produto *= c;}
+
+
+b) scanf("%f", &valor);
+
+
+c) if (gênero == 1){
+printf("Feminino\n") }else{
+printf("Masculino\n");
+}
+
+
+2) O que há de errado com a seguinte estrutura de repetição while?
+
+while (z >= 0){
+soma += z;
+}
+
+
+3) Determine os valores de cada variável após o cálculo ser realizado. Admita que no início da
+execução de cada instrução todas as variáveis possuem o valor 5.
+
+a) produto *= x++;
+	produto = 25
+	x = 6
+
+
+b) resultado = ++x + x;
+	resultado = 12
+	x = 6
+
+
+4) Identifique e corrija os erros em cada um dos itens seguintes (Nota: pode haver mais de um
+erro em cada conjunto de linhas de código):
+
+a) if (idade >= 65){
+printf("Idade e maior que ou igual a 65\n")}else{
+printf("Idade e menor que 65\n")}
+
+
+b) int x = 1, total;
+while (x <= 10) {total += x; + +x;}
+
+c) While (x <= 100){
+total += x;
+x++;
+}
+
+
+d) while (y > 0) {printf("%d\n", y); y++;}
+
