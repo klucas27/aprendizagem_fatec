@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/kresl/OneDrive/Documents/GitHub/aprendizagem_c/Fatec/Algotitmo/Atividade_2",
-      "program": "c:/Users/kresl/OneDrive/Documents/GitHub/aprendizagem_c/Fatec/Algotitmo/Atividade_2/build/Debug/outDebug",
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
