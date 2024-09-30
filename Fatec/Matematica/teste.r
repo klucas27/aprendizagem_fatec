@@ -1,5 +1,5 @@
 # Instale o pacote ggplot2 se ainda não tiver
-install.packages("ggplot2")
+# install.packages("ggplot2")
 
 # Carregue o pacote
 library(ggplot2)
@@ -9,6 +9,7 @@ dados <- data.frame(
   x = c(1, 2, 3, 4, 5),
   
   y = c(2, 3, 5, 7, 11)
+
 )
 
 # Gerando o gráfico
