@@ -17,6 +17,6 @@ int main(){
     else{
         printf("O numero %d nao e multiplo de %d!\n", num1, num2);
     }
-    system("Pause");
+    
     return 0;
 }
