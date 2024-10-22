@@ -13,7 +13,7 @@ dados <- data.frame(
 )
 
 # Gerando o gráfico
-ggplot(dados, aes(x = x, y = y)) +
+  ggplot(dados, aes(x = x, y = y)) +
   geom_point() +          # Adiciona pontos
   geom_line() +           # Adiciona linhas conectando os pontos
   ggtitle("Gráfico Simples de Teste") +  # Título do gráfico
