@@ -1,0 +1,92 @@
+body{
+    background-color: #0D1117;
+    color: aliceblue;
+}
+
+header{
+    text-align: center;
+    border: none;
+    background-color: darkslategrey;
+    padding: 3px 3px 3px 3px;
+}
+
+nav ul {
+    list-style-type: none;
+    /* padding: 0px; */
+    text-align: center;
+}
+
+nav ul li{
+    background-color: transparent;
+    color: white;
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a{
+    color: aliceblue;
+    font-size: 23px;
+    font-family: Verdana, sans-serif;
+    text-transform: uppercase;
+    font-stretch:extra-expanded;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px groove #ffffff;
+    border-radius: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: aliceblue;
+    color: #0D1117;
+}
+
+main{
+    background-color: #191D23;
+    padding: 3%;
+    margin: 10px;
+    box-shadow: 5px 5px 5px 15px rgba(4, 253, 37, 0.1);
+}
+
+footer{
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+/* Adicionando estilo para o formulário */
+form {
+    background-color: #2b2e34; /* Fundo do formulário */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+/* Estilo dos inputs e labels */
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo da lista de produtos */
+#productList {
+    list-style-type: none; /* Remove marcadores */
+    padding: 0;
+}
+
+#productList li {
+    background-color: #4caf50; /* Fundo dos produtos */
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
